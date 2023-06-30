@@ -1,0 +1,93 @@
+.cssColor1{
+    background-color:teal;
+   
+}
+.cssColor2{
+    background-color:skyblue;
+   
+}
+.cssColor3{
+    background-color:aqua;
+}
+.commonCssColors{
+    color: violet;
+    padding: 20px;
+    margin: 20px;
+}
+/* p7.html */
+.jumbotron{
+    background-color: blanchedalmond;
+    border-radius: 20px;
+}
+.cssFont{
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-variant: small-caps;
+}
+.cssText{
+    text-align:center;
+    line-height: 2;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-decoration:underline;
+    text-transform: uppercase;
+
+}
+.cssText>p{
+    text-indent: 100px;
+}
+/* p8.html */
+.navBar{
+    background-color: grey;
+}
+.navBar>ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    float: right;
+}
+.navBar>ul>li{
+    display: inline-block;
+    padding: 20px;
+    
+    
+}
+.navBar>ul>li:hover{
+    background-color: #fff;
+}
+.navBar>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.navBar>ul>li:hover a{
+    color: grey;
+}
+/* list marker position */
+.list-marker-position>ol>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.list-marker-position>ol>li>a{
+    color: #fff;
+    text-decoration: none;
+}
+.list-marker-position>ol>li::marker{
+    color: aquamarine;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* using image as bullet point */
+.list-icon>ul>li{
+    list-style-image: url(../placeholder.png);
+
+}
+.list-shortand>ul>li{
+    background-color: teal;
+    padding: 20px;
+    margin-bottom: 20px;
+    list-style: decimal inside url(../placeholder.png);
+}
